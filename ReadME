@@ -1,0 +1,6 @@
+This is a POC project, which i want to get perf data from both Btrace and Mbeans.By JavaFX 2.0, it will represent the raw data in a nice way.
+JDK1.6.30+ or JDK7 needed, this is tested under JDK1.6.30
+
+Known Issue or wish-list:
+1. Memory leaked... Right now, it is able to support 1000 points with each line. If your monitor interval is 5sec, you can monitor about 1.5 hours.
+2. Will add a stop/take a screenshot button on the chart, so that you can added it as an attachment.
