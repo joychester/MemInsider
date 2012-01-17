@@ -3,4 +3,6 @@ JDK1.6.30+ or JDK7 needed, this is tested under JDK1.6.30
 
 Known Issue or wish-list:
 1. Memory leak due to the TreeView updating... Right now, it is able to support 1000 points with each line. If your monitor interval is 5sec, you can monitor about 1.5 hours.
+Will consider to replace TreeView soon...
 2. Will add a stop/take a screenshot button on the chart, so that you can added it as an attachment.
+3. Configurable for some parameters by XML format.
